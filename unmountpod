@@ -1,0 +1,5 @@
+#!/bin/sh
+POD=/media/IPOD
+mktunes -m $POD
+umount $POD
+echo "unmounted."

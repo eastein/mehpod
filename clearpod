@@ -1,0 +1,4 @@
+#!/bin/sh
+waitdir /media/IPOD/iPod_Control
+rm -rf /media/IPOD/*
+gnupod_INIT --noask -m /media/IPOD
